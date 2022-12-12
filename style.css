@@ -75,7 +75,6 @@
     width: 1136px;
     height: 614px;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 #bton-space{
@@ -110,7 +109,6 @@
     margin-top: 179px;
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
     margin-bottom: 7.3rem;
 }
 .exert-details > p {
@@ -152,7 +150,7 @@
     font-weight: bold;
 }
 .partner-across{
-    margin-left: 194px;
+    margin-left: 402px;
     padding-top: 150px;
 }
 .partner-across > small {
@@ -183,13 +181,20 @@ background-color: #F9F9F9;
 .all-cards{
     margin-left: 393px;
     margin-top: 138px;
+    display: flex;
+    justify-content: center;
 }
 .card{
     width: 445px;
     height: 670px;
     overflow: hidden;
     background-color: #ffffff;
-    border: 1px solid red;
+    margin-left: 44px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card:nth-child(1){
+    margin-left: -50px;
 }
 
 .card > h3 {
@@ -200,4 +205,18 @@ background-color: #F9F9F9;
     line-height: 43px;
     letter-spacing: -0.02em;
     color: #222222;
+}
+
+.industry-main{
+    width: 1346px;
+}
+.three-serve{
+    margin-left: 274px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 458px;
+}
+
+.three-serve > img {
+    width: 543px;
 }
