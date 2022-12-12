@@ -1,0 +1,203 @@
+@font-face {
+    font-family: myFont;
+    src: url(myFont.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+
+.header{
+    width: 1900px;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 31px 25px;
+    /* border: 1px solid red; */
+}
+.navIcons{
+    display: flex;
+    flex-direction: column;
+}
+.barIconOne{
+    width: 29.33px;
+    height: 3px;
+    margin-bottom: 9px;
+    background-color: #222222;
+}
+.barIconTwo{
+    width: 22.33px;
+    height: 3px;
+    background-color: #222222;
+}
+
+.middle-logo{
+    text-transform: uppercase;
+    font-size: 28.75px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.get-touch{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.icon-space{
+    padding-left: 3px;
+}
+
+.get-underline{
+    width: 127px;
+    padding-top: 2px;
+    border-bottom: 1px solid #222222;
+}
+
+.cover-img{
+    width: 1765px;
+    height: 866px;
+    margin: auto;
+}
+
+.cover{
+    margin-bottom: 160px;
+}
+
+.expert {
+    width: 1136px;
+    height: 614px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#bton-space{
+    margin-bottom: 221px;
+}
+
+.industry-main{
+    display: flex;
+}
+
+.industry-expert{
+    width: 639px;
+    height: 211px;
+}
+
+.industry-expert > small {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #EC2232;
+}
+
+.industry-expert > h1 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 85px;
+    margin-top: 23px;
+    color: #222222;
+}
+
+.exert-details{
+    margin-top: 179px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 7.3rem;
+}
+.exert-details > p {
+    width: 500px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+.three-number{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.Numbers > div > h1{
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+}
+
+.Numbers > div > h1 > span {
+    color: #EC2232;
+}
+
+.number-text > p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;
+}
+
+.location{
+    font-weight: bold;
+}
+.partner-across{
+    margin-left: 194px;
+    padding-top: 150px;
+}
+.partner-across > small {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #EC2232;
+
+}
+
+.partner-area{
+    width: 1900;
+    height: 894px;
+background-image: url('./Images/Mask group.png');
+background-color: #F9F9F9;
+}
+
+.partner-across > h1 {
+    width: 904px;
+    font-weight: 500;
+    font-size: 70px;
+    padding-top: 33px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+}
+
+.all-cards{
+    margin-left: 393px;
+    margin-top: 138px;
+}
+.card{
+    width: 445px;
+    height: 670px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid red;
+}
+
+.card > h3 {
+    margin-left: 60px;
+    margin-top: 43px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #222222;
+}
