@@ -126,6 +126,17 @@
    
 }
 
+.Numbers:nth-child(1){
+    border-right: 1px solid #C4C4C4;
+    height: 100px;
+    padding-right: 50px;
+}
+.Numbers:nth-child(2){
+    border-right: 1px solid #C4C4C4;
+    height: 100px;
+    padding-right: 50px;
+}
+
 .Numbers > div > h1{
     font-weight: 600;
     font-size: 110px;
@@ -577,6 +588,7 @@ footer{
     padding: 0px 150px;
 }
 
+
 .copyRight {
     margin-left: -203px !important;
 }
@@ -656,7 +668,12 @@ footer{
 
     .cover-img{
         width: 100%;
-        overflow: hidden;
+    height: 450px;
+    overflow: hidden;
+    }
+
+    .cover-img > img {
+        margin-top: -370px;
     }
 
     .cover{
@@ -828,12 +845,12 @@ footer{
     .left-line {
         border-left: 0px solid #EC2232;
         width: 360px;
-        height: 750px;
+        height: 878px;
         margin-left: 9px;
         padding-top: 30px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
+        grid-gap: 50px;
         padding-bottom: 30px;
         overflow: hidden;
     }
